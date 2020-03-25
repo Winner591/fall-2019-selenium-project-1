@@ -42,7 +42,7 @@ public class IframeExample {
         // TODO switch by webelement
         WebElement frame = driver.findElement(By.tagName("iframe"));
         driver.switchTo().frame(frame);
-
+        //from git hub
         textBox = driver.findElement(By.id("tinymce"));
         textBox.clear();
         textBox.sendKeys("great.thanks one time");
